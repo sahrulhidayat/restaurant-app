@@ -1,0 +1,16 @@
+.loading:empty {
+  background-image: linear-gradient( 90deg, rgb(216, 215, 215), rgb(255, 250, 250), #9c9c9c, #aaaaaa);
+  background-size: 1000%;
+  background-position: right;
+  animation: sweep 2s ease-in-out infinite alternate;
+  box-shadow: 0 0 6px 0 #a3a3a331;
+}
+
+@keyframes sweep {
+  0% {
+      background-position: right;
+  }
+  100% {
+      background-position: left;
+  }
+}

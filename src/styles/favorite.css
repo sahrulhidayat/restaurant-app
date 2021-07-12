@@ -1,0 +1,16 @@
+.blank-header {
+    min-height: 40px;
+    width: 100%;
+}
+
+.restaurant-item__not__found {
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    opacity: 0.5;
+}
+
+.content {
+    min-height: 100vh;
+}

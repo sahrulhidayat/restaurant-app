@@ -1,0 +1,119 @@
+/* Hero / Jumbotron */
+
+.hero {
+    display: flex;
+    align-items: center;
+    min-height: 550px;
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../public/images/heros/hero-image_2-large.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-inner {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.hero-title {
+    color: #fff;
+    font-family: 'Dancing Script', sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+}
+
+.hero-tagline {
+    color: #fff;
+    margin-top: 8px;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 34px;
+}
+
+/* Main */
+
+.content {
+    padding: 32px;
+    font-family: 'Nunito', sans-serif;
+    min-height: 100vw;
+}
+
+.content-heading {
+    margin: 16px 0 32px 0;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    text-underline-offset: 3px;
+}
+
+.restaurant-list {
+    width: 100%;
+    margin: 50px auto;
+}
+
+.restaurant-item {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: justify;
+    height: 520px;
+}
+
+.restaurant-item-detail {
+    padding: 16px;
+}
+
+.restaurant-item-thumb {
+    width: 100%;
+    height: 26em;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.restaurant-item-title {
+    font-family: 'Dancing Script', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: #424242;
+    text-decoration: none;
+    margin-top: 2px;
+    transition: 0.3s opacity;
+    min-height: 44px;
+    min-width: 44px;
+}
+
+.restaurant-item-title:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.restaurant-item-rating {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.restaurant-item-description {
+    min-width: 100%;
+    min-height: 66px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.restaurant-item-city {
+    min-height: 22px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.restaurant-item-description {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 16px;
+}

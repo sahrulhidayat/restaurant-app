@@ -1,0 +1,178 @@
+@import "catalog.css";
+@import "detail.css";
+@import "favorite.css";
+@import "loading.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    font-size: 12px;
+    color: #424242;
+}
+
+img {
+    display: block;
+}
+
+/* App Bar */
+
+.app-bar {
+    position: fixed;
+    display: block;
+    width: 100%;
+    background-color: #424242;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    display: flex;
+}
+
+.brand {
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    vertical-align: middle;
+    width: 40%;
+    padding: 8px 0 8px 32px;
+}
+
+.brand-logo {
+    height: 44px;
+    width: 44px;
+    margin-right: 18px;
+}
+
+.brand-name {
+    padding-top: 14px;
+}
+
+.brand-name a {
+    text-decoration: none;
+    color: #fff8cd;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 24px;
+    transition: 0.3s color;
+}
+
+.brand-name a:hover {
+    color: #ffe05d;
+    cursor: pointer;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    padding-left: 20%;
+    text-align: right;
+}
+
+.nav-list {
+    width: 100%;
+    margin: auto;
+}
+
+.nav-item {
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.nav a {
+    display: flex;
+    padding: 8px 32px 8px 32px;
+    text-decoration: none;
+    color: #fff8cd;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s color;
+}
+
+.nav a:hover {
+    font-size: 14px;
+    color: #ffe05d;
+}
+
+.app-bar-menu {
+    font-size: 32px;
+    margin: 10px auto;
+    width: 30px;
+}
+
+.skip-link {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 0px;
+    background-color: #ffe05d;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    margin-top: 0px;
+}
+
+/* Star Rating */
+
+:root {
+    --star-size: 22px;
+    --star-color: rgb(219, 219, 219);
+    --star-background: #fc0;
+}
+
+.stars {
+    --percent: calc(var(--rating) / 5 * 100%);
+    
+    display: inline-block;
+    font-size: var(--star-size);
+    font-family: Times; /* make sure ★ appears correctly */
+    line-height: 1;
+}
+
+.stars::before {
+    content: '★★★★★';
+    letter-spacing: 3px;
+    background: linear-gradient(90deg, var(--star-background) var(--percent), var(--star-color) var(--percent));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer {
+    background-color: #424242;
+    padding: 16px;
+    width: 100%;
+    text-align: center;
+    color: #fff8cd;
+    font-size: 16px;
+}
+
+/* AutoHide App-bar */
+
+.scroll-down .app-bar {
+    transform: translate3d(0, -100%, 0);
+    transition: 0.3s ease;
+}
+
+.scroll-up .app-bar {
+    transform: none;
+    transition: 0.3s ease;
+}
+  
