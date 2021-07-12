@@ -3,7 +3,6 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const ServiceWorkerWebpackPlugin = require('serviceworker-webpack-plugin');
 const ImageminWebpackPlugin = require('imagemin-webpack-plugin').default;
 const ImageminMozjpeg = require('imagemin-mozjpeg');
-const ImageminPngquant = require('imagemin-pngquant');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 const path = require('path');
 
@@ -77,9 +76,6 @@ module.exports = {
         ImageminMozjpeg({
           quality: 70,
           progressive: true,
-        }),
-        ImageminPngquant({
-          quality: [0.3, 0.5],
         }),
       ],
     }),
