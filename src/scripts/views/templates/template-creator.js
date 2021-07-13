@@ -53,14 +53,9 @@ const createLikedButtonTemplate = () => `
   </button>
 `;
 
-const createFooter = () => `
-   <div class="footer"> Copyright &copy; 2021 - Resto Apps </div>
-`;
-
 export {
   createRestaurantItemTemplate,
   createRestaurantDetailTemplate,
   createLikeButtonTemplate,
   createLikedButtonTemplate,
-  createFooter,
 };

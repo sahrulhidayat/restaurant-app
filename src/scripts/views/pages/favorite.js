@@ -1,11 +1,9 @@
 import FavoriteRestaurantIdb from '../../data/favorite-restaurant-idb';
-import { createFooter, createRestaurantItemTemplate } from '../templates/template-creator';
+import { createRestaurantItemTemplate } from '../templates/template-creator';
 
 const Favorite = {
   async render() {
-    return `
-    <div class="blank-header"></div>
-    
+    return `    
     <div class="content">
       <h2 class="content-heading">Favorite Restaurants</h2>
         <div id="restaurants" class="restaurants">
@@ -24,12 +22,9 @@ const Favorite = {
       });
     } else {
       restaurantContainer.innerHTML += `
-          <div></div>
           <div class="restaurant-item__not__found">Tidak ada restaurant untuk ditampilkan</div>
-          <div></div>
       `;
     }
-    document.querySelector('#footer').innerHTML = createFooter();
   },
 };
 

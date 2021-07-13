@@ -1,9 +1,5 @@
-.blank-header {
-    min-height: 40px;
-    width: 100%;
-}
-
 .restaurant-item__not__found {
+    min-width: 360px;
     text-align: center;
     font-size: 20px;
     font-style: italic;

@@ -1,5 +1,5 @@
 import RestaurantSource from '../../data/restaurant-source';
-import { createFooter, createRestaurantItemTemplate } from '../templates/template-creator';
+import { createRestaurantItemTemplate } from '../templates/template-creator';
 
 const Catalog = {
   async render() {
@@ -26,7 +26,6 @@ const Catalog = {
     catalog.forEach((restaurant) => {
       restaurantsContainer.innerHTML += createRestaurantItemTemplate(restaurant);
     });
-    document.querySelector('#footer').innerHTML = createFooter();
   },
 };
 

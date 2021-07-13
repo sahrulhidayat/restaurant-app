@@ -2,7 +2,7 @@
     "name": "Restaurant Catalogue Lite",
     "short_name": "Resto Apps",
     "description": "Free Catalogue Restaurant for you",
-    "theme_color": "#424242",
+    "theme_color": "#07011b",
     "background_color": "#FFFFFF",
     "display": "standalone",
     "start_url": "/index.html",
