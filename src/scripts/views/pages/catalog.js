@@ -4,7 +4,7 @@ import { createRestaurantItemTemplate } from '../templates/template-creator';
 const Catalog = {
   async render() {
     return `
-      <div class="hero">
+      <div class="hero loading">
         <div class="hero-inner">
             <div class="hero-title">Mencari Restoran yang Tepat</div>
             <div class="hero-tagline">Menciptakan momen yang tak terlupakan</div>

@@ -3,8 +3,8 @@
 .hero {
     display: flex;
     align-items: center;
-    min-height: 550px;
     width: 100%;
+    height: 550px;
     text-align: center;
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../public/images/heros/hero-image_2-large.jpg");
     background-position: center;
@@ -68,7 +68,7 @@
 
 .restaurant-item-thumb {
     width: 100%;
-    height: 26em;
+    height: 316px;
     object-fit: cover;
     object-position: 50% 50%;
 }

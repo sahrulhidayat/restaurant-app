@@ -10,7 +10,9 @@
 .restaurant-image {
     width: 100%;
     max-width: 800px;
-    min-height: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 50% 50%;
 }
 
 .restaurant-title {
