@@ -10,6 +10,7 @@
 .restaurant-image {
     width: 100%;
     max-width: 800px;
+    min-height: 300px;
 }
 
 .restaurant-title {
