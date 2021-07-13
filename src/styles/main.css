@@ -19,7 +19,7 @@ body, html {
 body {
     font-family: "Nunito", sans-serif;
     font-size: 12px;
-    color: #424242;
+    color: #07011b;
 }
 
 img {
@@ -29,12 +29,9 @@ img {
 /* App Bar */
 
 .app-bar {
-    position: fixed;
     display: block;
     width: 100%;
     height: 74px;
-    background-color: #424242;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .container {
@@ -62,14 +59,14 @@ img {
 
 .brand-name a {
     text-decoration: none;
-    color: #fff8cd;
+    color: #07011b;
     font-family: 'Dancing Script', sans-serif;
     font-size: 24px;
     transition: 0.3s color;
 }
 
 .brand-name a:hover {
-    color: #ffe05d;
+    opacity: 0.5;
     cursor: pointer;
 }
 
@@ -97,15 +94,14 @@ img {
     display: flex;
     padding: 8px 32px 8px 32px;
     text-decoration: none;
-    color: #fff8cd;
+    color: #07011b;
     font-size: 14px;
     font-weight: bold;
     transition: 0.3s color;
 }
 
 .nav a:hover {
-    font-size: 14px;
-    color: #ffe05d;
+    opacity: 0.5;
 }
 
 .app-bar-menu {
@@ -118,7 +114,7 @@ img {
     position: absolute;
     margin-top: -100px;
     margin-left: 0px;
-    background-color: #ffe05d;
+    background-color: #07011b;
     color: red;
     font-size: 18px;
     font-weight: bold;
@@ -130,6 +126,9 @@ img {
     margin-top: 0px;
 }
 
+main {
+    height: max-content;
+}
 /* Star Rating */
 
 :root {
@@ -156,13 +155,13 @@ img {
     -webkit-text-fill-color: transparent;
 }
 
-footer {
-    background-color: #424242;
+.footer {
     padding: 16px;
     width: 100%;
     text-align: center;
-    color: #fff8cd;
-    font-size: 16px;
+    color: #07011b;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 /* AutoHide App-bar */

@@ -1,6 +1,6 @@
 .restaurant {
     margin: 0 auto;
-    padding: 80px 0 80px;
+    padding: 24px 0 80px;
     width: 100%;
     min-height: 100vh;
     max-width: 800px;
@@ -58,8 +58,8 @@
 /* Review */
 
 .review-wrapper {
-    border-left: 4px solid #646464;
-    background-color: #ececec;
+    border-left: 4px solid #07011b;
+    background-color: #e6ddff;
     padding: 6px 16px;
     margin-bottom: 12px;
     width: 100%;

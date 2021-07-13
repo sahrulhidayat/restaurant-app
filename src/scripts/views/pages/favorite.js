@@ -1,5 +1,5 @@
 import FavoriteRestaurantIdb from '../../data/favorite-restaurant-idb';
-import { createRestaurantItemTemplate } from '../templates/template-creator';
+import { createFooter, createRestaurantItemTemplate } from '../templates/template-creator';
 
 const Favorite = {
   async render() {
@@ -29,6 +29,7 @@ const Favorite = {
           <div></div>
       `;
     }
+    document.querySelector('#footer').innerHTML = createFooter();
   },
 };
 

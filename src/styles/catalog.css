@@ -17,14 +17,14 @@
 }
 
 .hero-title {
-    color: #fff;
+    color: #fffef5;
     font-family: 'Dancing Script', sans-serif;
     font-weight: bold;
     font-size: 64px;
 }
 
 .hero-tagline {
-    color: #fff;
+    color: #fffef5;
     margin-top: 8px;
     font-family: 'Dancing Script', sans-serif;
     font-size: 34px;
@@ -33,7 +33,7 @@
 /* Main */
 
 .content {
-    padding: 32px 8px 32px 8px;
+    padding: 32px 8px 64px 8px;
     width: fit-content;
     height: fit-content;
     margin: auto;
@@ -56,7 +56,7 @@
 }
 
 .restaurant-item {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
     width: 316px;
     border-radius: 5px;
     overflow: hidden;
@@ -80,9 +80,8 @@
     font-family: 'Dancing Script', sans-serif;
     font-weight: bold;
     font-size: 32px;
-    color: #424242;
+    color: #07011b;
     text-decoration: none;
-    margin-top: 2px;
     transition: 0.3s opacity;
     min-height: 44px;
     min-width: 44px;
