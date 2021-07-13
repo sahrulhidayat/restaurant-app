@@ -25,6 +25,9 @@ a {
     .restaurant {
         width: 300px;
     }
+    .restaurant-item, .restaurant-item-thumb {
+        width: 304px;
+    }
 }
 
 @media screen and (min-width: 375px) and (max-width: 425px) {
@@ -44,6 +47,12 @@ a {
 
     .restaurant-image {
         height: 300px;
+    }
+}
+
+@media screen and (min-width: 662px) and (max-width: 110px) {
+    .content {
+        width: 662px;
     }
 }
 
@@ -199,7 +208,7 @@ a {
     }
 }
 
-@media screen and (min-width: 756px) {
+@media screen and (min-width: 1024px) {
     #restaurants {
         display: grid;
         grid-row-gap: 36px;
@@ -209,5 +218,14 @@ a {
 
     .restaurant {
         max-width: 800px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    #restaurants {
+        display: grid;
+        grid-row-gap: 36px;
+        grid-column-gap: 12px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }

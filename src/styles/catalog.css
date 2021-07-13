@@ -33,9 +33,11 @@
 /* Main */
 
 .content {
-    padding: 32px;
+    padding: 32px 8px 32px 8px;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
     font-family: 'Nunito', sans-serif;
-    min-height: 100vw;
 }
 
 .content-heading {
@@ -55,11 +57,12 @@
 
 .restaurant-item {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 100%;
+    width: 316px;
     border-radius: 5px;
     overflow: hidden;
     text-align: justify;
     height: 520px;
+    margin: auto;
 }
 
 .restaurant-item-detail {
@@ -67,7 +70,7 @@
 }
 
 .restaurant-item-thumb {
-    width: 100%;
+    width: 316px;
     height: 316px;
     object-fit: cover;
     object-position: 50% 50%;

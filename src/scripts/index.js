@@ -13,8 +13,8 @@ const app = new App({
 });
 
 window.addEventListener('hashchange', () => {
-  window.scroll(0, 0);
   app.renderPage();
+  window.scroll(0, 0);
 });
 
 window.addEventListener('load', () => {
