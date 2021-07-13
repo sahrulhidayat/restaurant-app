@@ -1,29 +1,15 @@
-@import "catalog.css";
-@import "detail.css";
-@import "favorite.css";
-@import "loading.css";
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body, html {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-}
-
 body {
+    width: 100%;
+    min-height: 100vh;
     font-family: "Nunito", sans-serif;
     font-size: 12px;
     color: #07011b;
-}
-
-img {
-    display: block;
 }
 
 /* App Bar */
@@ -66,7 +52,6 @@ img {
 }
 
 .brand-name a:hover {
-    opacity: 0.5;
     cursor: pointer;
 }
 
@@ -101,7 +86,7 @@ img {
 }
 
 .nav a:hover {
-    opacity: 0.5;
+    cursor: pointer;
 }
 
 .app-bar-menu {
@@ -175,4 +160,8 @@ main {
     transform: none;
     transition: 0.3s ease;
 }
-  
+
+@import "catalog.css";
+@import "detail.css";
+@import "favorite.css";
+@import "loading.css";
