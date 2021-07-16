@@ -83,6 +83,9 @@ module.exports = {
         }),
       ],
     }),
-    new BundleAnalyzerPlugin({ analyzerMode: 'disabled' }),
+    new BundleAnalyzerPlugin({
+      analyzerMode: 'static',
+      openAnalyzer: false,
+    }),
   ],
 };
